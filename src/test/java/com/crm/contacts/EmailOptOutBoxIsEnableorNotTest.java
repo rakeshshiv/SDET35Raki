@@ -27,7 +27,7 @@ public class EmailOptOutBoxIsEnableorNotTest extends BaseClass {
 		CreateContactsPage createcontactspage=new CreateContactsPage(driver);
 		createcontactspage.getClickoncreatelkpimg().click();
 
-		//Fill all contact details
+		
 
 		CreateNewContactsPage createContact=new CreateNewContactsPage(driver);
 		createContact.enterFirstNameTextEdit(firstname, lastname, mobilenumber);
