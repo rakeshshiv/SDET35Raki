@@ -15,7 +15,7 @@ public class EmailOptOutBoxIsEnableorNotTest extends BaseClass {
 	@Test(groups= {"regressionTest"})
 	public void emailOptOutBoxIsEnableorNot() throws Throwable 
 	{
-		// fetching datas from excel
+		// fetching datas from excel_1
 		String firstname = excel.readDataFromExcel("sheet1", 1, 4);	
 		String lastname = excel.readDataFromExcel("sheet1", 1, 5);	
 		String mobilenumber = excel.readDataFromExcel("sheet1", 1, 7);	
