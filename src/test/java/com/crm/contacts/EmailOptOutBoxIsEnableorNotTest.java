@@ -15,6 +15,7 @@ public class EmailOptOutBoxIsEnableorNotTest extends BaseClass {
 	@Test(groups= {"regressionTest"})
 	public void emailOptOutBoxIsEnableorNot() throws Throwable 
 	{
+		//Rocky KGF
 		// fetching datas from excel_1
 		String firstname = excel.readDataFromExcel("sheet1", 1, 4);	
 		String lastname = excel.readDataFromExcel("sheet1", 1, 5);	
