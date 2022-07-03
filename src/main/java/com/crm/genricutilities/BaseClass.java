@@ -85,7 +85,7 @@ public void launchTheBrowser() throws Throwable
     	LoginPage lpage=new LoginPage(driver);
     	lpage.loginToAppli(USERNAME, PASSWORD);
     }
-    
+    //hello 
     /**
      * sign out from application
      */
